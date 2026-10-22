@@ -1,0 +1,6 @@
+{
+  "name": "KRAFT & FORMA — Интерьерные объекты из дерева, бетона и стали",
+  "description": "Сайт-визитка и магазин авторских интерьерных предметов ручной работы в минималистичном скандинавском стиле.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
