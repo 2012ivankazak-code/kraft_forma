@@ -1,3 +1,7 @@
+import valetImg from '../assets/images/product_concrete_oak_valet_1792703706861.jpg';
+import boardImg from '../assets/images/product_magnetic_board_1792703707927.jpg';
+import lampImg from '../assets/images/product_steel_lamp_1792703707989.jpg';
+
 export interface ReelItem {
   id: string;
   title: string;
@@ -25,7 +29,7 @@ export const REELS_ITEMS: ReelItem[] = [
     hookText: '«Залипательный момент, когда бетон выходит из формы»',
     soundName: 'Оригинальный звук мастерской · ASMR',
     category: 'Бетон & Дуб',
-    thumbnail: '/src/assets/images/product_concrete_oak_valet_1792703706861.jpg',
+    thumbnail: valetImg,
     conceptDescription: 'Снятие гибкой силиконовой формы, глухой стук монолита о верстак и идеальная шелковистая геометрия.',
   },
   {
@@ -39,7 +43,7 @@ export const REELS_ITEMS: ReelItem[] = [
     hookText: '«Секунда, когда дерево оживает под воском»',
     soundName: 'Lo-Fi Chill Beats · Craft Studio',
     category: 'Массив дуба',
-    thumbnail: '/src/assets/images/product_magnetic_board_1792703707927.jpg',
+    thumbnail: boardImg,
     conceptDescription: 'Шлифовка зерном P320 и проявление глубокого рисунка волокон кавказского дуба под маслом Osmo.',
   },
   {
@@ -53,7 +57,7 @@ export const REELS_ITEMS: ReelItem[] = [
     hookText: '«Выдержит ли связку из 9 ключей и брелока от машины?»',
     soundName: 'Тактильный щелчок · Satisfying Clack',
     category: 'Сталь & Дуб',
-    thumbnail: '/src/assets/images/product_magnetic_board_1792703707927.jpg',
+    thumbnail: boardImg,
     conceptDescription: 'Бросок ключей с 15 см к поверхности — чистый глубокий щелчок и мертвое удержание.',
   },
   {
@@ -67,7 +71,7 @@ export const REELS_ITEMS: ReelItem[] = [
     hookText: '«Когда выключаешь весь свет в комнате и оставляешь только ее»',
     soundName: 'Vintage Click · Warm Light ASMR',
     category: 'Бетон & Латунь',
-    thumbnail: '/src/assets/images/product_steel_lamp_1792703707989.jpg',
+    thumbnail: lampImg,
     conceptDescription: 'Камера фокусируется на латунном тумблере, щелчок пальцем, спираль накаливания тепло заливает комнату.',
   },
 ];

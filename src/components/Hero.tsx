@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, Sparkles, Instagram, ShieldCheck, Truck, Clock } from 'lucide-react';
+import heroImg from '../assets/images/hero_scandinavian_craft_1792703705775.jpg';
 
 interface HeroProps {
   onScrollToCatalog: () => void;
@@ -70,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToCatalog, onScrollToReels }
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-lg overflow-hidden bg-[#EAE4D9] border border-[#DCD5C9] shadow-md aspect-16/10 sm:aspect-16/11 lg:aspect-4/3">
               <img
-                src="/src/assets/images/hero_scandinavian_craft_1792703705775.jpg"
+                src={heroImg}
                 alt="Мастерская KRAFT & FORMA: предметы из дуба, архитектурного бетона и вороненой стали"
                 className="w-full h-full object-cover object-center transform hover:scale-[1.02] transition-transform duration-700 ease-out"
                 loading="eager"

@@ -1,3 +1,8 @@
+import valetImg from '../assets/images/product_concrete_oak_valet_1792703706861.jpg';
+import planterImg from '../assets/images/product_concrete_planter_1792703707239.jpg';
+import lampImg from '../assets/images/product_steel_lamp_1792703707989.jpg';
+import boardImg from '../assets/images/product_magnetic_board_1792703707927.jpg';
+
 export interface Product {
   id: string;
   name: string;
@@ -34,7 +39,7 @@ export const PRODUCTS: Product[] = [
     productionTime: 'В наличии (отправка 24ч)',
     inStock: true,
     stockCount: 6,
-    image: '/src/assets/images/product_concrete_oak_valet_1792703706861.jpg',
+    image: valetImg,
     description: 'Массивный лоток из архитектурного бетона М600 с фрезерованной вставкой из цельного кавказского дуба. Дно защищено пробковым демпфером — лоток не оставляет следов на столе. Дуб покрыт двумя слоями немецкого экологичного масла Osmo с твердым воском.',
     materialsList: [
       'Архитектурный бетон марки М600 (ручное вибролитье)',
@@ -62,7 +67,7 @@ export const PRODUCTS: Product[] = [
     productionTime: 'В наличии (4 шт.)',
     inStock: true,
     stockCount: 4,
-    image: '/src/assets/images/product_concrete_planter_1792703707239.jpg',
+    image: planterImg,
     description: 'Бруталистский мини-монолит двойного назначения: компактная емкость для живого суккулента или мха и желоб с латунным отверстием для ароматических палочек и благовоний. Пористая текстура бетона подчеркивает естественную фактуру камня.',
     materialsList: [
       'Высокопрочный серый архитектурный бетон',
@@ -88,7 +93,7 @@ export const PRODUCTS: Product[] = [
     productionTime: 'Изготовление 2-3 дня',
     inStock: true,
     stockCount: 3,
-    image: '/src/assets/images/product_steel_lamp_1792703707989.jpg',
+    image: lampImg,
     description: 'Камерный акцентный светильник для рабочего стола или прикроватной тумбы. Основание из цельного цилиндра бетона с открытыми порами, дугообразная стойка из вороненой стали и механический латунный тумблер с глубоким щелчком.',
     materialsList: [
       'Цилиндрический монолит бетона М600',
@@ -116,7 +121,7 @@ export const PRODUCTS: Product[] = [
     productionTime: 'В наличии (3 шт.)',
     inStock: true,
     stockCount: 3,
-    image: '/src/assets/images/product_magnetic_board_1792703707927.jpg',
+    image: boardImg,
     description: 'Настенная консоль для прихожей: фронтальная планка из массива кавказского дуба с 4 скрытыми неодимовыми магнитами высокой мощности (держат даже тяжелые связки ключей) и нижняя гнутая полка из стали с матовым порошковым покрытием.',
     materialsList: [
       'Цельный брус натурального дуба (фаски 45°)',
